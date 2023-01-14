@@ -1,0 +1,69 @@
+.Movietrailer {
+    position: relative;
+    margin: 30px 0;
+}
+
+.Movietrailer .overlay {
+    border-radius: 20px;
+}
+
+.playvideo iframe {
+    height: 90vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Movietrailer .header {
+    height: 85vh;
+    border-radius: 20px;
+}
+
+.Movietrailer .header_info {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-size: 3rem;
+    z-index: 1111;
+    cursor: pointer;
+}
+
+.fa-xmark:hover {
+    transform: scale(1.05);
+    color: var(--red-color);
+}
+
+/* phone responsive  */
+@media screen and (max-width: 427px) {
+    .Movietrailer {
+        margin: 10px 0;
+    }
+
+    .Movietrailer .header {
+        height: 80vh;
+    }
+
+    .fa-xmark {
+        font-size: 2rem;
+    }
+}
+
+/* tablet responsibe  */
+@media screen and (min-width: 427px) and (max-width: 820px) {
+    .Movietrailer {
+        margin: 20px 0;
+    }
+
+    .Movietrailer .header {
+        height: 80vh;
+    }
+
+    .fa-xmark {
+        font-size: 2.4rem;
+    }
+}

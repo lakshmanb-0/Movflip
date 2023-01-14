@@ -1,0 +1,48 @@
+@import"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+:root {
+  --red-color: #e21723;
+  --shadow-grey: #707070;
+  --white-color: #fff;
+  --yellow-color: yellow;
+  --p-grey: #a9a5a5;
+  --black-color: #16141b;
+  --button-back: #1e1c23;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: none;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.disabled {
+  user-select: none;
+}

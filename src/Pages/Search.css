@@ -1,0 +1,45 @@
+.search {
+    position: relative;
+}
+
+.search .navbar {
+    position: sticky;
+}
+
+.search .row_genres {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.search .row_genres button {
+    padding: 0.8rem 1.5rem
+}
+
+.searchbar {
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.searchbar input {
+    padding: 0.7rem 1rem;
+    width: 50%;
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+/* phone responsive  */
+
+@media screen and (max-width: 427px) {
+
+    .search .row_genres button {
+        padding: 0.8rem 1.2rem
+    }
+
+    .searchbar {
+        margin-top: 2rem;
+    }
+}
