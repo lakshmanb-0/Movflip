@@ -1,4 +1,4 @@
-export const api_key = "404731489fa030ac1bffebbfb8fea6ec";
+export const api_key = "YOUR_API_KEY";
 
 const requests = {
   fetchPopular: `/movie/popular?api_key=${api_key}&language=en-US&page=1`,
